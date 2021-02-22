@@ -1,0 +1,11 @@
+/****** Script for SelectTopNRows command from SSMS  ******/
+SELECT TOP (1000) [firstName]
+      ,[lastName]
+      ,[genger]
+      ,[dateOfBirth]
+      ,[mobile]
+      ,[email]
+      ,[joinDate]
+      ,[adress]
+      ,[membershipDuration]
+  FROM [the_gymD].[dbo].[NEW_CUSTMER]

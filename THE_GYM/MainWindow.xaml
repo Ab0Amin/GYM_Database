@@ -1,0 +1,112 @@
+﻿<Window x:Class="THE_GYM.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:THE_GYM"
+        mc:Ignorable="d"
+        Title="THE GYM"
+        WindowState="Maximized" Width="1600" Height="799.9" Icon="the gym icon.jpg">
+    <Window.Background>
+        <ImageBrush ImageSource="1.jpg"/>
+    </Window.Background>
+    <Grid x:Name="grid1" AutomationProperties.Name="THE GYM">
+
+
+        <Grid.Background>
+            <ImageBrush Stretch="UniformToFill" TileMode="FlipXY" ImageSource="1.jpg"/>
+        </Grid.Background>
+
+        <Menu Height="78" VerticalAlignment="Top" Foreground="{x:Null}" Background="#FFC9C9C9" HorizontalAlignment="Left" Width="1140">
+            <Button x:Name="bt_newMember" Content="     New Member" Width="201" Height="72" FontFamily="Italic" FontSize="16" Click="bt_newMember_Click">
+                <Button.Background>
+                    <ImageBrush AlignmentX="Left" ImageSource="3165604-200.png" Stretch="Uniform" TileMode="FlipXY" Viewbox="0,0,0.5,1">
+                        <ImageBrush.RelativeTransform>
+                            <TransformGroup>
+                                <ScaleTransform CenterY="1" CenterX="1"/>
+                                <SkewTransform CenterY="1" CenterX="1"/>
+                                <RotateTransform CenterY="1" CenterX="1"/>
+                                <TranslateTransform/>
+                            </TransformGroup>
+                        </ImageBrush.RelativeTransform>
+                    </ImageBrush>
+                </Button.Background>
+            </Button>
+
+            <Button Content="     New staff" Width="178" Height="72" FontFamily="Italic" FontSize="16" RenderTransformOrigin="0.502,0.556" Click="Button_Click">
+                <Button.Background>
+                    <ImageBrush ImageSource="index.jpg" Stretch="Uniform" AlignmentX="Left" Viewbox="0,0,0.5,1" TileMode="FlipXY">
+                        <ImageBrush.RelativeTransform>
+                            <TransformGroup>
+                                <ScaleTransform CenterY="1" CenterX="1"/>
+                                <SkewTransform CenterY="1" CenterX="1"/>
+                                <RotateTransform CenterY="1" CenterX="1"/>
+                                <TranslateTransform/>
+                            </TransformGroup>
+                        </ImageBrush.RelativeTransform>
+                    </ImageBrush>
+                </Button.Background>
+            </Button>
+            <Button Content="      Search" Width="143" Height="72" FontFamily="Italic" FontSize="16" RenderTransformOrigin="0.502,0.556" Click="Button_Click_2">
+                <Button.Background>
+                    <ImageBrush ImageSource="search.png" Stretch="Uniform" AlignmentX="Left" Viewbox="0,0,0.5,1" TileMode="FlipXY">
+                        <ImageBrush.RelativeTransform>
+                            <TransformGroup>
+                                <ScaleTransform CenterY="1" CenterX="1"/>
+                                <SkewTransform CenterY="1" CenterX="1"/>
+                                <RotateTransform CenterY="1" CenterX="1"/>
+                                <TranslateTransform/>
+                            </TransformGroup>
+                        </ImageBrush.RelativeTransform>
+                    </ImageBrush>
+                </Button.Background>
+            </Button>
+            <Button x:Name="expired" Content="      Expired members" Width="253" Height="72" FontFamily="Italic" FontSize="16" RenderTransformOrigin="0.502,0.556" Click="expired_Click">
+                <Button.Background>
+                    <ImageBrush ImageSource="delete member.jpg" Stretch="Uniform" AlignmentX="Left" Viewbox="0,0,0.5,1" TileMode="FlipXY">
+                        <ImageBrush.RelativeTransform>
+                            <TransformGroup>
+                                <ScaleTransform CenterY="1" CenterX="1"/>
+                                <SkewTransform CenterY="1" CenterX="1"/>
+                                <RotateTransform CenterY="1" CenterX="1"/>
+                                <TranslateTransform/>
+                            </TransformGroup>
+                        </ImageBrush.RelativeTransform>
+                    </ImageBrush>
+                </Button.Background>
+            </Button>
+            <Button x:Name="bt_logout" Content="     Log Out" Width="157" Height="72" FontFamily="Italic" FontSize="16" RenderTransformOrigin="0.502,0.556" Click="bt_logout_Click">
+                <Button.Background>
+                    <ImageBrush ImageSource="lofout.jpg" Stretch="Uniform" AlignmentX="Left" Viewbox="0,0,0.5,1" TileMode="FlipXY">
+                        <ImageBrush.RelativeTransform>
+                            <TransformGroup>
+                                <ScaleTransform CenterY="1" CenterX="1"/>
+                                <SkewTransform CenterY="1" CenterX="1"/>
+                                <RotateTransform CenterY="1" CenterX="1"/>
+                                <TranslateTransform/>
+                            </TransformGroup>
+                        </ImageBrush.RelativeTransform>
+                    </ImageBrush>
+                </Button.Background>
+            </Button>
+            <Button x:Name="bt_exit" Content="     Exit" Width="120" Height="72" FontFamily="Italic" FontSize="16" RenderTransformOrigin="0.502,0.556" Click="bt_exit_click">
+                <Button.Background>
+                    <ImageBrush ImageSource="exit.jpg" Stretch="Uniform" AlignmentX="Left" Viewbox="0,0,0.5,1" TileMode="FlipXY">
+                        <ImageBrush.RelativeTransform>
+                            <TransformGroup>
+                                <ScaleTransform CenterY="1" CenterX="1"/>
+                                <SkewTransform CenterY="1" CenterX="1"/>
+                                <RotateTransform CenterY="1" CenterX="1"/>
+                                <TranslateTransform/>
+                            </TransformGroup>
+                        </ImageBrush.RelativeTransform>
+                    </ImageBrush>
+                </Button.Background>
+            </Button>
+
+
+        </Menu>
+    </Grid>
+
+
+</Window>
